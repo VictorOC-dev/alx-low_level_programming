@@ -2,8 +2,8 @@
 #include <unistd.h>
 /**
  * main - This program makes use of fputs()
- * Description -  This program prints to standard output
- *Return: 1 (Success)
+ * Description - This program prints to standard output
+ * Return: 1 (Success)
  */
 int main(void)
 {
