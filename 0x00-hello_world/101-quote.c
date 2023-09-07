@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - A c program that prints line of the standard error
- * Description -  This program prints out the expected output
- *Return: 0 (Success)
+ * main - This program makes use of fputs()
+ * Description -  This program prints to standard output
+ *Return: 1 (Success)
  */
 int main(void)
 {
