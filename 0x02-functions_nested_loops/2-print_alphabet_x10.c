@@ -8,4 +8,4 @@
 void print_alphabet_x10(void)
 {
 	char c;
-	int 1 =
+	int 1 = 
