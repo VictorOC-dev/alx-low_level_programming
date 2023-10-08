@@ -8,12 +8,15 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int main(int argc, char *argv[])
 {
-    char *c;
-    int *i;
-    float *f;
-    double *d;
+	char *c;
+	int *i;
+	float *f;
+	double *d;
+
+	(void)argc;
+	(void)argv;
 
     c = malloc_checked(sizeof(char) * 1024);
     printf("%p\n", (void *)c);
